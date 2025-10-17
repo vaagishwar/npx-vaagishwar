@@ -1,0 +1,44 @@
+{
+  "name": "npx-vaagii",
+  "version": "1.0.0",
+  "description": "CLI Portfolio for Vaagishwar (run `npx vaagii`)",
+  "main": "index.js",
+  "bin": {
+    "vaagii": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "portfolio",
+    "developer",
+    "vaagishwar",
+    "terminal"
+  ],
+  "author": "Vaagishwar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CookieCodeio/npx-vaagishwar.git"
+  },
+  "homepage": "https://github.com/CookieCodeio/npx-vaagishwar#readme",
+  "bugs": {
+    "url": "https://github.com/CookieCodeio/npx-vaagishwar/issues"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "cfonts": "^3.3.0",
+    "chalk": "^5.4.1",
+    "clear": "^0.1.0",
+    "open": "^10.1.2",
+    "ora": "^8.2.0",
+    "say": "^0.16.0",
+    "string-width": "^7.2.0",
+    "strip-ansi": "^7.1.0",
+    "term-size": "^3.0.2",
+    "terminal-kit": "^3.1.2",
+    "terminal-link": "^4.0.0"
+  }
+}
